@@ -9,7 +9,7 @@ const HomePage = () => {
       <section 
         className="h-screen flex items-center justify-center bg-cover bg-center relative"
         style={{ 
-          backgroundImage: 'url("/images/aigles.jpg")',
+          backgroundImage: 'url("https://ik.imagekit.io/16fpzbjyo/aigles.jpg?updatedAt=1748726530785")',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>

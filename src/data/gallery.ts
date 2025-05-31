@@ -5,7 +5,7 @@ export const galleryItems: GalleryItem[] = [
     id: 1,
     title: 'Championnat Régional 2023',
     description: 'Nos jeunes patineurs lors de la compétition régionale junior où ils ont remporté 5 médailles.',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/competition/competition74.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/competition4.jpg?updatedAt=1748726533232',
     category: 'competition',
     date: '15 novembre 2023'
   },
@@ -13,7 +13,7 @@ export const galleryItems: GalleryItem[] = [
     id: 2,
     title: 'Instant Aniversaire',
     description: 'Un aigle vient de grandir .',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/other/anif.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/anif.jpg?updatedAt=1748726530500',
     category: 'event',
     date: '18 juin 2023'
   },
@@ -21,7 +21,7 @@ export const galleryItems: GalleryItem[] = [
     id: 3,
     title: 'Entraintement des enfants',
     description: 'Entraintement des enfants',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/training/enfant.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/enfant.jpg?updatedAt=1748726530637',
     category: 'training',
     date: '10 juillet 2023'
   },
@@ -29,7 +29,7 @@ export const galleryItems: GalleryItem[] = [
       id: 5,
     title: "Don de 100 casques par l' ONG Assistance Humanitaire Internationale ",
     description: "L'essence de la vraie richesse réside dans le partage et dans le don de soi, un principe fondamental qui guide les actions de l'AHI- AHI. Grâce à ces actions, nous avons obtenu un don de 100 casques le samedi 23 novembre 2024 à Cotonou. Cette contribution ne se limite pas à un soutien matériel ; elle représente également un acte qui solidifie notre détermination à promouvoir la pratique sécurisée du roller sports et à favoriser le développement des jeunes talents au sein de notre communauté. Un grand merci à l'ensemble de l'équipe de l'ONG AHI et à son représentant au Bénin Bertin Affognon.",
-    image: "/images/event/casque.jpg",
+    image: "https://ik.imagekit.io/16fpzbjyo/casque.jpg?updatedAt=1748726530623",
     category: "event",
     date: "23 novembre 2024"
   },
@@ -37,7 +37,7 @@ export const galleryItems: GalleryItem[] = [
     id: 5,
     title: 'Challenge Cotonou Skating Open  à Calavi',
     description: 'Quelques images du Challenge Cotonou Skating Open du dimanche 11Mai 2025 à Calavi',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/competition/competition75.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/competition75.jpg?updatedAt=1748726530611',
     category: 'competition',
     date: '11 Mai 2025'
   },
@@ -45,7 +45,7 @@ export const galleryItems: GalleryItem[] = [
         id: 6,
       title: "Formation Skateboard avec Basile DANET",
       description: "En loisir ou en compétition, le skateboard développe des capacités d\'équilibre, fait appel à la créativité technique et favorise l’épanouissement individuel. Retour en image sur la formation des encadreurs et athlètes de skateboard animée par le passionné Basile DANET. Une semaine riche en apprentissages et en partage, du 18 au 24 novembre 2024, au CNOSB et au Skate-park de la corniche à Akpakpa.",
-      image: "https://github.com/grahmsji/Aigles/blob/main/images/other/formation2.jpg",
+      image: "https://ik.imagekit.io/16fpzbjyo/formation2.jpg?updatedAt=1748726530659",
       category: "training",
       date: "24 novembre 2024"
   },
@@ -53,7 +53,7 @@ export const galleryItems: GalleryItem[] = [
     id: 7,
     title: 'Séances d\'étirement avant course',
     description: 'Séances etirement avant course.',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/training/etirement.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/etirement.jpg?updatedAt=1748726530705',
     category: 'training',
     date: '12 septembre 2023'
   },
@@ -61,7 +61,7 @@ export const galleryItems: GalleryItem[] = [
     id: 8,
     title: 'Challenge Cotonou Skating Open (2CS-OPEN)  69e Édition',
     description: 'Emma Dubois représentant notre club lors du Championnat National Junior à Paris.',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/competition/competition74.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/competition74.jpg?updatedAt=1748726530648',
     category: 'competition',
     date: '13 Avril 2025'
   },
@@ -69,7 +69,7 @@ export const galleryItems: GalleryItem[] = [
     id: 9,
     title: 'formation théorique en skateboard organisée par le CNOS BEN avec le soutien de la Solidarité Olympique',
     description: 'Objectif : transmettre les bases pédagogiques, techniques et sécuritaires du skateboard à une nouvelle génération de formateurs béninois.',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/other/formation.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/formation.jpg?updatedAt=1748726530523',
     category: 'event',
     date: '21 mai 2025'
   },
@@ -93,7 +93,7 @@ export const galleryItems: GalleryItem[] = [
     id: 12,
     title: 'Remise des Médailles Tournoi Régional',
     description: 'Cérémonie de remise des médailles lors du tournoi régional junior avec nos champions.',
-    image: 'https://github.com/grahmsji/Aigles/blob/main/images/competition/competition1.jpg',
+    image: 'https://ik.imagekit.io/16fpzbjyo/competition1.jpg?updatedAt=1748726530669',
     category: 'competition',
     date: '17 novembre 2023'
   }

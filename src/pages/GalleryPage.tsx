@@ -197,14 +197,15 @@ const GalleryPage = () => {
               Retrouvez plus de vidéos de nos événements, compétitions et démonstrations sur notre chaîne YouTube.
             </p>
             
-            <a 
-              href="https://youtube.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-red-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-red-700 transition-colors"
-            >
-              Notre chaîne YouTube
-            </a>
+                <a 
+          href="https://web.facebook.com/Aigleskaterakpakpa/photos?locale=fr_FR&_rdc=1&_rdr" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          Notre page Facebook
+        </a>
+
           </div>
         </div>
       </section>
