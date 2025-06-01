@@ -148,67 +148,69 @@ const GalleryPage = () => {
       )}
 
       {/* Video section */}
-      <section className="bg-gray-50 py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8">Nos vidéos</h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative pb-[56.25%]">
-                  <img 
-                    src="https://ik.imagekit.io/16fpzbjyo/No-video-title-fdown.net.mp4?updatedAt=1748795197296" 
-                    alt="Stage de patinage" 
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
-                      <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-white border-b-8 border-b-transparent ml-1"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="p-4">
-                  <h3 className="font-bold text-lg">Stage de patinage</h3>
-                  <p className="text-gray-600">Stage de patinage organisé par EYA Centre Communautaire Stage participé par certains de nos athlètes. Très émus les athlètes.</p>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="relative pb-[56.25%]">
-                  <img 
-                    src="https://ik.imagekit.io/16fpzbjyo/No-video-title-fdown.net%20(1).mp4?updatedAt=1748795781518" 
-                    alt="lancement des Championnats Nationaux de Roller Sports" 
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
-                      <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-white border-b-8 border-b-transparent ml-1"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="p-4">
-                  <h3 className="font-bold text-lg">lancement des Championnats Nationaux de Roller Sports</h3>
-                  <p className="text-gray-600">Retour sur le lancement des Championnats Nationaux de Roller Sports de 2023 chez nous à AKPAKPA Ciné Concorde.</p>
-                </div>
-              </div>
-            </div>
-            
-            <p className="text-gray-700 mb-6">
-              Retrouvez plus de vidéos de nos événements, compétitions et démonstrations sur page facebook.
-            </p>
-            
-                <a 
-          href="https://web.facebook.com/Aigleskaterakpakpa/photos?locale=fr_FR&_rdc=1&_rdr" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
-        >
-          Notre page Facebook
-        </a>
+<section className="bg-gray-50 py-20">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-8">Nos vidéos</h2>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        {/* Première vidéo */}
+        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="relative pb-[56.25%]">
+            <video 
+              className="absolute inset-0 w-full h-full object-cover" 
+              controls
+              poster="https://ik.imagekit.io/16fpzbjyo/miniature1.jpg" // (optionnel : miniature d’aperçu)
+            >
+              <source src="https://ik.imagekit.io/16fpzbjyo/No-video-title-fdown.net.mp4?updatedAt=1748795197296" type="video/mp4" />
+              Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+          </div>
+          <div className="p-4">
+            <h3 className="font-bold text-lg">Stage de patinage</h3>
+            <p className="text-gray-600">
+              Stage de patinage organisé par EYA Centre Communautaire Stage participé par certains de nos athlètes. Très émus les athlètes.
+            </p>
           </div>
         </div>
-      </section>
+
+        {/* Deuxième vidéo */}
+        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="relative pb-[56.25%]">
+            <video 
+              className="absolute inset-0 w-full h-full object-cover" 
+              controls
+              poster="https://ik.imagekit.io/16fpzbjyo/miniature2.jpg" // (optionnel)
+            >
+              <source src="https://ik.imagekit.io/16fpzbjyo/No-video-title-fdown.net%20(1).mp4?updatedAt=1748795781518" type="video/mp4" />
+              Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+          </div>
+          <div className="p-4">
+            <h3 className="font-bold text-lg">Lancement des Championnats Nationaux de Roller Sports</h3>
+            <p className="text-gray-600">
+              Retour sur le lancement des Championnats Nationaux de Roller Sports de 2023 chez nous à AKPAKPA Ciné Concorde.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <p className="text-gray-700 mb-6">
+        Retrouvez plus de vidéos de nos événements, compétitions et démonstrations sur page facebook.
+      </p>
+
+      <a 
+        href="https://web.facebook.com/Aigleskaterakpakpa/photos?locale=fr_FR&_rdc=1&_rdr" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors"
+      >
+        Notre page Facebook
+      </a>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
