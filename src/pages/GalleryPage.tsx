@@ -157,7 +157,7 @@ const GalleryPage = () => {
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative pb-[56.25%]">
                   <img 
-                    src="https://images.pexels.com/photos/3621133/pexels-photo-3621133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                    src="https://ik.imagekit.io/16fpzbjyo/No-video-title-fdown.net.mp4?updatedAt=1748795197296" 
                     alt="Vidéo gala fin d'année" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -177,7 +177,7 @@ const GalleryPage = () => {
                 <div className="relative pb-[56.25%]">
                   <img 
                     src="https://images.pexels.com/photos/2005992/pexels-photo-2005992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                    alt="Vidéo championnat régional" 
+                    alt="Stage de patinage" 
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -187,8 +187,8 @@ const GalleryPage = () => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <h3 className="font-bold text-lg">Championnat Régional 2023</h3>
-                  <p className="text-gray-600">Les performances de nos champions lors du championnat régional junior.</p>
+                  <h3 className="font-bold text-lg">Stage de patinage</h3>
+                  <p className="text-gray-600">Stage de patinage organisé par EYA Centre Communautaire Stage participé par certains de nos athlètes. Très émus les athlètes.</p>
                 </div>
               </div>
             </div>
